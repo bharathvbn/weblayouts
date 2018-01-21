@@ -1,0 +1,251 @@
+html,body{
+     font-family: "Times New Roman", Times, serif;
+	 margin:0px;
+
+}
+
+header{
+	background: -webkit-linear-gradient(#bd23ff, #ff238a);
+	overflow:hidden;
+	border:1vw inset #7b00ff;
+	padding:2px;
+}
+
+
+
+
+#logo{
+	width:8%;
+	height:auto;
+	padding:2px;
+	float:left;
+	border:2px inset #f96300;
+}
+
+
+
+header h1{
+	font-size:5em;
+	text-align:center;
+	font-family:Eras ITC;
+	letter-spacing:1px;
+	font-weight: bold;
+	color:white;
+	word-spacing:10px;
+	margin:10px 0px 0px 0px;
+
+
+}
+
+header h2{
+	font-size:2em;
+	text-align:center;
+	font-family:Imprint MT Shadow;
+	text-indent:20%;
+	font-style: italic;
+	margin:0px;
+	text-decoration:blink;
+
+}
+
+section{
+	background:#212121;
+	color:white;
+
+
+}
+
+section h1{
+	font-size:2em;
+	text-align:center;
+	margin:0;
+}
+
+
+@media screen and (max-width: 1200px) {
+	header h1{
+		font-size:2em;
+	}
+	header h2{
+		font-size:1em;
+	}
+	#logo{
+		width:12%;
+	}
+
+  article p{
+    font-size:0.5em;
+  }
+  article .logo1,article .logo2{
+    width:100%;
+    margin:auto;
+  }
+  article .plan1, article .plan2{
+    width:95%;
+    margin:2%;
+  }
+  nav li{
+    width:100%;
+    text-align: center;
+  }
+}
+
+section video{
+	width:95%;
+  margin:2%;
+  border:1px solid white;
+}
+
+nav{
+  background-color:green;
+
+}
+
+nav ul{
+  list-style: none;
+  overflow:hidden;
+  margin:0;
+  padding:0;
+
+}
+
+nav ul li{
+  float:left;
+
+}
+
+nav ul li a{
+  text-decoration: none;
+  display:block;
+  font-size: 2em;
+  padding:1vw 2vw 1vw 1vw;
+  color:white;
+  border:2px solid lime;
+
+}
+
+
+.bgcolor
+{
+  background-color: #212121;
+  overflow:hidden;
+}
+
+article h1{
+  margin:2%;
+  color: white;
+  font-size:5em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.logo1{
+  width:40%;
+  border:1px solid white;
+  margin-left: 7%;
+  float:left;
+  display:block;
+}
+
+article .logo1 img{
+  width:40%;
+  margin:5% 0% 1% 20%;
+  background-color:white;
+  padding:5%;
+}
+
+article p{
+  color:white;
+  margin:0%;
+  padding:5%;
+  font-size:2em;
+}
+
+.logo2{
+  float:right;
+  width:40%;
+  border:1px solid white;
+  margin-right:7%;
+  display:block;
+}
+
+article .logo2 img{
+  width:40%;
+  margin:5% 0% 1% 20%;
+  background-color:white;
+  padding:5%;
+}
+
+.plan1,.plan2{
+  float:left;
+  width:35%;
+  background-color:white;
+  margin:7%;
+  margin-top: 2%;
+}
+
+.plan1 p,.plan2 p{
+  color: green;
+  margin: 0;
+  font-size:3em;
+  text-align:center;
+}
+
+.plan1 h1,.plan2 h1{
+  color:red;
+  font-size:2em;
+  text-align:center;
+}
+
+.plan1 ul,.plan2 ul{
+  margin:0;
+  font-size:2em;
+}
+
+.about img{
+  width:20%;
+  display:block;
+  margin: auto;
+  border:1px solid white;
+}
+
+.about p{
+  font-size:1.8em;
+  padding: 2%;
+}
+
+iframe{
+  width:90%;
+  float: left;
+  margin:1% 0% 2% 5%;
+  padding:0;
+}
+
+.contact p{
+  padding: 0;
+}
+
+footer{
+  background-color: black;
+  padding:2%;
+
+}
+
+footer p{
+  font-size:1em;
+  text-align:center;
+  margin:auto;
+  padding:0px;
+}
+
+footer a{
+  text-decoration: none;
+  color:gray;
+  font-size: 1.5em;
+  margin:5%;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color:white;
+}
